@@ -1,0 +1,122 @@
+name: Task
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.7+13
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #local storage
+  shared_preferences: ^2.0.15
+
+  #dio
+  dio: ^5.0.1
+
+  #DI
+  injectable: ^2.1.0
+  get_it: ^7.2.0
+
+  #model builder
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+
+ 
+
+  #file system branches
+  path_provider: ^2.0.5
+
+  # images
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+
+  #Skeleton
+  skeleton_text: ^3.0.0
+
+
+  #firebase
+  firebase_messaging: ^14.7.19
+  flutter_local_notifications: ^16.3.0
+
+  photo_view: ^0.14.0
+
+  #qr_code
+  qr_flutter: ^4.1.0
+
+  #Localization
+  flutter_localizations:
+    sdk: flutter
+  intl_translation: 0.18.2
+  intl: ^0.18.0
+
+
+
+  firebase_core: ^2.24.2
+  device_info: ^2.0.2
+  package_info_plus: ^5.0.1
+
+  shared:
+    path: packages/shared
+
+  ui:
+    path: packages/ui
+
+  api_service:
+    path: packages/api_service
+
+  dialog_services:
+    path: packages/dialog_services
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_gen: ^5.3.1
+
+  injectable_generator: ^2.1.4
+  build_runner: ^2.3.2
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+
+  flutter_lints: ^3.0.1
+
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+
+
+flutter:
+  generate: true
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # assets:
+  #   - assets/
+  #   - assets/images/
+  #   - assets/icons/
